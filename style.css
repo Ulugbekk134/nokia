@@ -1,4 +1,4 @@
-.container{
+.container {
     background: #000;
     width: 120px;
     text-align: center;
@@ -6,30 +6,33 @@
     margin-top: 20px;
     padding: 10px;
     border-radius: 12px;
-  }
-  
-  
-  .parent{
+}
+
+
+.parent {
     width: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: #000;
     color: #fff;
-  }
-  .child{
-    border:1px solid white;
-    align-items:center;
+}
+
+.child {
+    border: 1px solid white;
+    align-items: center;
     text-align: center;
-  }
-  .span{
+}
+
+.span {
     width: 40px;
     background: #fff;
     height: 5px;
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
-  body {
+}
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,27 +40,27 @@
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-  }
-  
-  .phone-buttons {
+}
+
+.phone-buttons {
     display: flex;
     justify-content: space-around;
     width: 120px;
     background-color: #000;
-  
+
     border-radius: 10px;
-  }
-  
-  .button {
+}
+
+.button {
     width: 30px;
     height: 30px;
     background-color: #444;
     border-radius: 10px;
     position: relative;
-  }
-  
-  .button.call::before,
-  .button.end-call::before {
+}
+
+.button.call::before,
+.button.end-call::before {
     content: "";
     position: absolute;
     width: 20px;
@@ -66,27 +69,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .button.call::before {
+}
+
+.button.call::before {
     background-color: #0f0;
     transform: translate(-50%, -50%) rotate(135deg);
-  }
-  
-  .button.end-call::before {
+}
+
+.button.end-call::before {
     background-color: #f00;
     transform: translate(-50%, -50%) rotate(45deg);
-  }
-  
-  .button.center {
+}
+
+.button.center {
     width: 30px;
     height: 30px;
     background-color: #444;
     border-radius: 10px;
     border: 3px solid #000;
-  }
-  
-  .button.center::before {
+}
+
+.button.center::before {
     content: "";
     position: absolute;
     width: 20px;
@@ -96,9 +99,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-  }
-  .rasm{
+}
+
+.rasm {
     background-color: #ffffff;
     width: 110px;
     height: 60px;
-  }
+}
